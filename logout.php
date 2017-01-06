@@ -1,0 +1,10 @@
+<?php
+session_start();
+unset($_SESSION["email"]);
+unset($_SESSION["name"]);
+unset($_SESSION["surname"]);
+unset($_SESSION["user_id"]);
+unset($_SESSION["status"]);
+unset($_SESSION["is_logged"]);
+header("Location:index.php");
+?>
